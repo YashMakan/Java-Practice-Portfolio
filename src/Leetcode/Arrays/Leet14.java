@@ -8,17 +8,10 @@ public class Leet14 {
   }
 
   public String restoreString(String s, int[] indices) {
-    Character[] sAsList = new Character[indices.length];
-    for (int i = 0; i < sAsList.length; i++) {
-      sAsList[i] = s.charAt(indices[i]);
+    char arr[] = new char[indices.length];
+    for (int i = 0; i < indices.length; i++) {
+      arr[indices[i]] = s.charAt(i);
     }
-    StringBuilder sb = new StringBuilder();
-
-    for (Character ch : sAsList) {
-      sb.append(ch);
-    }
-
-    String string = sb.toString();
-    return string;
+    return new String(arr);
   }
 }
