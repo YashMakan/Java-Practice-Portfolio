@@ -1,4 +1,4 @@
-package Arrays;
+package Leetcode.Arrays;
 
 // 2011. Final Value of Variable After Performing Operations
 

@@ -1,4 +1,4 @@
-package Arrays;
+package Leetcode.Arrays;
 
 // 1672. Richest Customer Wealth
 
